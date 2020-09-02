@@ -1,4 +1,4 @@
-FROM nginx:1.19.0
+FROM nginx:1.19.1
 
 COPY auto-reload-nginx.sh /home/auto-reload-nginx.sh
 RUN chmod +x /home/auto-reload-nginx.sh
